@@ -1,0 +1,28 @@
+$white: #fff;
+
+$text: #60789e;
+
+$blue: #36b2e7;
+
+$gradient: linear-gradient(150deg,#0d27ca 15%,#475deb 70%,#36b2e7 94%);
+
+
+/* Color Pallette */
+
+/* http://paletton.com/#uid=73r0u0kpGSRenWTksUPvfPYLnFW */
+
+$blue: #36b2e7;
+$blueLight: #8bd3f3;
+$blueDark: #0488c1;
+
+$purple: #475deb;
+$purpleLight: #95a2f5;
+$purpleDark: #0d27ca;
+
+$orange: #ff9e32;
+$orangeLight: #ffc98d;
+$orangeDark: #ff8700;
+
+$yellow: #ffc532;
+$yellowLight: #ffdf8d;
+$yellowDark: #ffb700;

@@ -1,0 +1,39 @@
+footer {
+	background-color: $orangeDark;
+	padding: 20px;
+	color: $orangeLight;
+  	text-align: right;
+  	border-radius: 0 0 4px 4px;
+
+  	ul {
+		list-style: none;
+		margin-bottom: 0;
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			margin: 0 10px;
+
+			a {
+		  		color: $orangeLight;
+		  		transition: .3s all ease-in-out;
+		  		text-decoration: none;
+
+		  		.fa {
+		  			color: $orangeLight;
+		  			transition: .3s all ease-in-out;
+		  		}
+
+		  		&:hover {
+		  			color: #fff;
+		  			text-decoration: none;
+
+		  			.fa {
+			  			color: #fff;
+			  		}
+		  		}
+		  	}
+
+		}
+	}
+}

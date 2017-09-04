@@ -1,0 +1,47 @@
+/* Quote */
+.quote {
+	background-color: #fff;
+
+
+	.form {
+
+		&-horizontal {
+
+		}
+
+		&-group {
+			position: relative;
+		}
+
+		&-label {
+			position: absolute;
+			top: 18px;
+			left: 20px;
+			transition: .3s all ease-in-out;
+
+			&.float {
+				font-size: 12px;
+				top: 3px;
+			}
+
+			&-textarea {
+				top: 5px;
+			}
+		}
+
+		&-control {
+			font-size: 16px;
+			border-radius: 6px;
+			padding: 30px 20px;
+
+			&-textarea {
+				padding: 25px 20px;
+			}
+		}
+
+	}
+
+	&.thanks {
+		display: none;
+	}
+}

@@ -1,0 +1,21 @@
+/*
+Theme Name: webDevZim
+Theme URI: https://webdevzim.com
+Author: Steven Zimmer
+Author URI: https://webdevzim.com
+Version: 1.0
+*/
+
+@import "bootstrap";
+@import "font-awesome";
+@import "animate.css";
+@import "/app/assets/temp/styles/base/_variables";
+@import "/app/assets/temp/styles/base/_mixins";
+@import "/app/assets/temp/styles/base/_global";
+@import "/app/assets/temp/styles/modules/_hero";
+@import "/app/assets/temp/styles/modules/_body";
+@import "/app/assets/temp/styles/modules/_quote";
+@import "/app/assets/temp/styles/modules/_footer";
+@import "/app/assets/temp/styles/modules/_singolo";
+@import "/app/assets/temp/styles/modules/_portfolio";
+@import "/app/assets/temp/styles/modules/_services";

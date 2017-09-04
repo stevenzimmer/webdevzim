@@ -1,0 +1,17 @@
+@define-mixin min568 {
+	@media (min-width: 568px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin min768 {
+	@media (min-width: 768px) {
+		@mixin-content;
+	}
+}
+
+@define-mixin min1024 {
+	@media (min-width: 1024px) {
+		@mixin-content;
+	}
+}

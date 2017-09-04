@@ -1,0 +1,55 @@
+
+body {
+	color: $text;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	text-rendering:optimizeLegibility;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.relative {
+	position: relative;
+}
+
+a {
+	.fa {
+		color: $blue;
+
+		&:hover {
+			opacity: .6;
+		}
+	}
+}
+
+h3 {
+	margin: 0;
+}
+
+.btn {
+	padding: 10px 20px;
+
+	&-blue {
+		background-color: $blueDark;
+		color: $blueLight;
+		transition: .3s all ease-in-out;
+
+		&:hover {
+			color: #fff;
+			background-color: $blue;
+		}
+	}
+
+	&-orange {
+		background-color: $orangeDark;
+		color: $orangeLight;
+		transition: .3s ease-in-out;
+
+		&:hover {
+			color: #fff;
+			background-color: $orange;
+		}
+	}
+}
